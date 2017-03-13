@@ -1,6 +1,6 @@
 # resume-vue
 
-> 用 vue 打造个人简历
+>  
 
 ## Build Setup
 

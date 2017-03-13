@@ -36,13 +36,13 @@
             let n = 0;
             let _this = this;
 
-            this.$nextTick(function () {
-                setInterval(function () {
-                    _this.$refs.comShowStyle.writeStyleCode(_this.code.substring(0,n));
-                    _this.$refs.comShowResume.responseStyleCode(_this.code.substring(0,n));
-                    n++;
-                },100);
-             })
+//            this.$nextTick(function () {
+//                setInterval(function () {
+//                    _this.$refs.comShowStyle.writeStyleCode(_this.code.substring(0,n));
+//                    _this.$refs.comShowResume.responseStyleCode(_this.code.substring(0,n));
+//                    n++;
+//                },100);
+//             })
          },
         methods:{
             setStyleCode:function(){
