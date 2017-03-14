@@ -1,10 +1,9 @@
 <template>
     <div id="app">
-        <p><i class="icon-camera-retro icon-4x" @click="downloadPdf"></i> icon-camera-retro</p>
-
         <ShowMenu></ShowMenu>
         <ShowStyle ref="comShowStyle"></ShowStyle>
         <ShowResume ref="comShowResume"></ShowResume>
+        <Form></Form>
     </div>
 </template>
 
@@ -13,6 +12,7 @@
     import ShowMenu from './components/menu/ShowMenu.vue'
     import ShowStyle from './components/showStyle/ShowStyle.vue'
     import ShowResume from './components/showResume/ShowResume.vue'
+    import Form from './components/form/FormList.vue'
 //    import html2canvas from '../static/js/html2canvas';
 
     export default {
@@ -259,7 +259,8 @@
             Hello,
             ShowMenu,
             ShowStyle,
-            ShowResume
+            ShowResume,
+            Form
         }
     }
 </script>
@@ -278,7 +279,8 @@
     input, select, textarea {
         font-size: 100%;
     }
-    input{outline: none;}
+    input{outline: none;
+        border-style:none}
 
     /* 去掉各 Table  cell 的边距并让其边重合 */
     table {

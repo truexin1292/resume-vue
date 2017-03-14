@@ -1,6 +1,11 @@
 <template>
     <div id="show-menu">
-        <p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
+        <div class="menu-cont">
+            <div class="logo"><i class="icon-camera-retro icon-4x"></i></div>
+            <div class="file" @click="fileClick"><i class=" icon-file-alt icon-5x"></i></div>
+        </div>
+
+
     </div>
 </template>
 
@@ -14,6 +19,11 @@
         created(){
 
         },
+        methods:{
+            fileClick: function () {
+                
+            }  
+        },
         components:{
            
         }
@@ -25,6 +35,22 @@
         float: left;
         width: 10%;
         height: 100%;
-        background: #edac0d;
+        background: #ffffff;
+     }
+    .menu-cont{
+        width: 90%;
+        height: 99%;
+        margin: 0 auto;
+        padding-top: 1rem;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
+    .logo , .file{
+        width: 100%;
+        color: #42b983;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
 </style>
