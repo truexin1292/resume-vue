@@ -48,5 +48,6 @@
         border: 1px solid rebeccapurple;
         margin: auto auto;
         padding: 20px;
+        overflow: auto;
     }
 </style>

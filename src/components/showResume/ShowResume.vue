@@ -2,8 +2,8 @@
     <div id="show-resume">
         <section class="section-left">
             <div class="head">
-                <h2>曾田生</h2>
-                <h3>求职岗位:前端开发</h3>
+                <h2>xxxxx</h2>
+                <h3>xxxxxxxx</h3>
                 <p><i class="icon-phone icon-2x"></i></p>
                 <p>12345678901</p>
                 <p><i class="icon-envelope-alt icon-2x"></i></p>
@@ -56,53 +56,86 @@
             </div>
         </section>
         <section class="section-right">
-            <div class="blog">
-                <div class="github"><span class="icon-green">github:</span>https://github.com/ZengTianShengZ</div>
-                <div class="personal-blog"><span class="icon-green">blog1:</span>https://github.com/ZengTianShengZ</div>
-                <div class="personal-blog2"><span class="icon-green">blog2:</span>https://github.com/ZengTianShengZ</div>
+            <div class="blog-box clearfloat">
+                <div class="blog">
+                    <div class="title-name">BLOG LINK</div>
+                    <div class="link github"><i class="icon-github-alt icon-1x"></i>Github: <a target="_blank" href="https://github.com/ZengTianShengZ">https://github.com/ZengTianShengZ</a></div>
+                    <div class="link personal-blog"><i class="icon-flag icon-1x"></i>技术博文 <a target="_blank" href="https://segmentfault.com/u/zss">https://segmentfault.com/u/zss</a></div>
+                    <div class="link personal-blog2"><i class="icon-flag icon-1x"></i>个人博客 <a target="_blank" href="https://segmentfault.com/u/zss">https://segmentfault.com/u/zss</a></div>
+                </div>
             </div>
-            <div class="work-experience">
+            <div class="experience work-experience">
                 <div class="title">
-                    <div class="title-name">gongzuojingyan</div>
-                    <div class="title-date">200-1-2-2-zhijaing</div>
+                    <div class="title-name">工作经验</div>
+                    <div class="title-date">2012-2-4 至今</div>
                 </div>
                 <div class="item">
                     <div class="item-title">
-                        <div class="item-name">xxxx</div>
-                        <div class="item-date">22-22-22-22</div>
+                        <span class="item-name">项目1</span>
+                        <span class="item-skill">/ ES6 js css vue nodejs</span>
+                        <span class="item-date">1232-32-23</span>
                     </div>
-                    <div class="item-detail">dkdkk</div>
+                    <ul>
+                        <li>健身卡精神可嘉阿克苏s市假按揭惊声尖叫</li>
+                        <li>健身卡精神可嘉阿克苏slklkdlk市假按揭惊声尖叫</li>
+                        <li>健身卡精dsds神可嘉阿克苏市假按揭惊声尖叫</li>
+                    </ul>
                  </div>
+                <div class="item">
+                    <div class="item-title">
+                        <span class="item-name">项目1</span>
+                        <span class="item-skill">/ ES6 js css vue nodejs</span>
+                        <span class="item-date">1232-32-23</span>
+                    </div>
+                    <ul>
+                        <li>健身卡精神可嘉阿克苏s市假按揭惊声尖叫</li>
+                        <li>健身卡精神可嘉阿克苏slklkdlk市假按揭惊声尖叫</li>
+                        <li>健身卡精dsds神可嘉阿克苏市假按揭惊声尖叫</li>
+                    </ul>
+                </div>
             </div>
-            <div class="project-experience">
+            <div class="experience project-experience">
                 <div class="title">
-                    <div class="title-name">gongzuojingyan</div>
-                    <div class="title-date">200-1-2-2-zhijaing</div>
+                    <div class="title-name">项目经验</div>
+                    <div class="title-date"></div>
                 </div>
                 <div class="item">
                     <div class="item-title">
-                        <div class="item-name">xxxx</div>
-                        <div class="item-date">22-22-22-22</div>
+                        <span class="item-name">项目1</span>
+                        <span class="item-skill">/ ES6 js css vue nodejs</span>
+                        <span class="item-date">1232-32-23</span>
                     </div>
-                    <div class="item-detail">dkdkk</div>
+                    <ul>
+                        <li>健身卡精神可嘉阿克苏s市假按揭惊声尖叫</li>
+                        <li>健身卡精神可嘉阿克苏slklkdlk市假按揭惊声尖叫</li>
+                        <li>健身卡精dsds神可嘉阿克苏市假按揭惊声尖叫</li>
+                    </ul>
                 </div>
             </div>
-            <div class="skill-experience">
+            <div class="experience skill-experience">
                 <div class="title">
-                    <div class="title-name">gongzuojingyan</div>
-                    <div class="title-date">200-1-2-2-zhijaing</div>
+                    <div class="title-name">掌握技能</div>
+                    <div class="title-date"></div>
                 </div>
                 <div class="item">
-                    <div class="item-title"></div>
-                    <div class="item-detail">dkdkk</div>
+                    <div class="item-title">
+                        <span class="item-name">框架</span>
+                        <span class="item-skill"></span>
+                        <span class="item-date"></span>
+                    </div>
+                    <ul>
+                        <li>健身卡精神可嘉阿克苏s市假按揭惊声尖叫</li>
+                        <li>健身卡精神可嘉阿克苏slklkdlk市假按揭惊声尖叫</li>
+                        <li>健身卡精神可嘉阿克苏slklkdlk市假按揭惊声尖叫</li>
+                        <li>健身卡精dsds神可嘉阿克苏市假按揭惊声尖叫</li>
+                    </ul>
                 </div>
             </div>
-            <div class="self-evaluation">
+            <div class="experience self-evaluation">
                 <div class="title">
-                    <div class="title-name">gongzuojingyan</div>
-                    <div class="title-date">200-1-2-2-zhijaing</div>
+                    <div class="title-name">自我评价</div>
                 </div>
-                <p class="eval-detail"></p>
+                <p class="eval-detail">健身卡精dsds神可嘉阿克苏市假按揭惊声尖叫健身卡精dsds神可嘉阿克苏市假按揭惊声尖叫健身卡精dsds神可嘉阿克苏市假按揭惊声尖叫健身卡精dsds神可嘉阿克苏市假按揭惊声尖叫</p>
             </div>
         </section>
 
@@ -151,7 +184,21 @@
         color: #313131;
         background: rgb(249,249,249);
         line-height: 1.8;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
     }
+    /* section-right
+     ------------------------------------*/
+    .section-right{
+        float: left;
+        width: 69%;
+        height: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    }
+
     .section-left i{
         color: rgb(151, 151, 151);
         font-size: 1.5rem;
@@ -274,23 +321,99 @@
 
 
 
+    /* section-right  blog
+     ------------------------------------*/
+    .section-right .blog-box{
+        margin-bottom: 1rem;
+        /*background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5));*/
+        box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);
 
-
-
-    .section-right{
-        float: left;
-        width: 69%;
-        height: 100%;
     }
-    /*h2{*/
-        /*color: aliceblue;*/
-        /*text-align: center;*/
+    .section-right .blog{
+        float: right;
+        font-size: 1.4rem;
+        margin-right: 2rem;
+    }
+    .blog .title-name{
+        font-size: 1.6rem;
+    }
+    .blog .title-name:after{
+        content: '';
+        height: 2px;
+        width: 100%;
+        display:block;
+        margin-bottom: 2px;
+        /*background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5) 50%, #ffffff);*/
+    }
+    .blog .link{
+        line-height: 2rem;
+        margin-bottom: 2px;
+        padding-right: 0.5rem;
+        /*background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5));*/
+
+    }
+    .blog .link:nth-child(2n+1){
+        /*background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5));*/
+    }
+    .blog .link i{
+        margin-right: 1rem;
+    }
+    .blog .link a{
+        color: #313131;
+    }
+    /* section-right  experience
+     ------------------------------------*/
+    .experience{
+        padding: 0.5rem;
+        box-sizing: border-box;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    /*.experience:hover {*/
+        /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
     /*}*/
-    /*p{*/
-        /*color: #328c63;*/
-        /*text-align: center;*/
-        /*border: 1px solid rebeccapurple;*/
-        /*width: 80%;*/
-        /*margin: 0 auto;*/
-    /*}*/
+    .experience .title{
+        width: 100%;
+        height: 2rem;
+    }
+    .experience .title:after{
+        content: '';
+        height: 2px;
+        width: 100%;
+        display:block;
+        margin-bottom: 2px;
+        background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5) 50%, #ffffff);
+    }
+    .title .title-name{
+        font-size: 1.8rem;
+        display: inline-block;
+    }
+    .title .title-date{
+        float: right;
+    }
+    .experience .item-title{
+        padding: 0.6rem 0;
+        color: #42b983;
+    }
+    .experience .item-title span{
+        display: inline-block;
+    }
+    .item-title .item-name{
+        font-size: 1.6rem;
+     }
+    .item-title .item-skill{
+
+    }
+    .item-title .item-date{
+        float: right;
+    }
+    .experience .item ul{
+        margin-left: 1.5rem;
+        list-style: circle;
+    }
+
+
+
+
 </style>

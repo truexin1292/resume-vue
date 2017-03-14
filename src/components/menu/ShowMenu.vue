@@ -1,8 +1,5 @@
 <template>
     <div id="show-menu">
-        <p><i class="icon-camera-retro icon-large"></i> icon-camera-retro</p>
-        <p><i class="icon-camera-retro icon-2x"></i> icon-camera-retro</p>
-        <p><i class="icon-camera-retro icon-3x"></i> icon-camera-retro</p>
         <p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
     </div>
 </template>
