@@ -1,6 +1,8 @@
 <template>
     <div id="show-style">
-       <pre class="style-code" v-html="styleMsg"></pre>
+        <div class="style-content">
+            <pre class="style-code" v-html="styleMsg"></pre>
+        </div>
     </div>
 </template>
 
@@ -9,7 +11,7 @@
         data(){
             return{
                 msg:'hello vue',
-                styleMsg:''
+                styleMsg:""
             }
         },
         created(){
@@ -33,21 +35,23 @@
     #show-style{
         position: relative;
         float: left;
-        width: 40%;
+        width: 25%;
         height: 100%;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
         background: #ffffff;
     }
-    .style-code{
-        position: absolute;
-        top:0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 80%;
-        height: 90%;
-        border: 1px solid rebeccapurple;
-        margin: auto auto;
-        padding: 20px;
+    .style-content{
+        position: relative;
+        width: 100%;
+        height: 99%;
         overflow: auto;
+        box-shadow: 0 4px 12px 0 rgba(0,0,0,0.5);
+    }
+    .style-content::-webkit-scrollbar {
+        display: none;
+    }
+    .style-code{
+        margin: 1rem 0;
     }
 </style>

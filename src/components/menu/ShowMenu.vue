@@ -1,11 +1,9 @@
 <template>
     <div id="show-menu">
         <div class="menu-cont">
-            <div class="logo"><i class="icon-camera-retro icon-4x"></i></div>
+            <div class="logo"><i @click="kaClick" class="icon-camera-retro icon-4x"></i></div>
             <div class="file" @click="fileClick"><i class=" icon-file-alt icon-5x"></i></div>
         </div>
-
-
     </div>
 </template>
 
@@ -21,8 +19,11 @@
         },
         methods:{
             fileClick: function () {
-                
-            }  
+                this.$emit('listenShowMenu',{"type":"fileClick","showFlag":true});
+            },
+            kaClick: function () {
+                this.$emit('listenShowMenu',{"type":"kaClick"});
+            }
         },
         components:{
            
@@ -33,7 +34,7 @@
 <style>
     #show-menu{
         float: left;
-        width: 10%;
+        width: 8%;
         height: 100%;
         background: #ffffff;
      }
