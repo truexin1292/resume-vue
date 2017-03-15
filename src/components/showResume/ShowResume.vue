@@ -26,8 +26,8 @@
                 </div>
                 <div class="edu">
                     <h3><span class="item-title">教育背景</span></h3>
-                    <p>{{resumeData.head.school}}</p>
-                    <p>{{resumeData.head.graduation}}</p>
+                    <p>{{resumeData.head.school}} ({{resumeData.head.graduation}})</p>
+                    <p>{{resumeData.head.graduationTime}}</p>
                     <p>专业:{{resumeData.head.major}}</p>
                     <p class="honor-title">荣获</p>
                     <p v-for="item in resumeData.head.honor.split('、')">{{item}}</p>
@@ -38,20 +38,10 @@
                 </div>
                 <div class="skill">
                     <h3><span class="item-title">技能特长</span></h3>
-                    <div class="sk">js
+                    <div class="sk" v-for="(item,index) in resumeData.head.speciality.split('、')">{{item}}
                         <div class="sk-wrap">
-                            <span class="sk-per"></span>
+                            <span class="sk-per" :style="{width:resumeData.head.specialityPer.split('、')[index]+'%'}"></span>
                         </div>
-                    </div>
-                    <div class="sk">css
-                        <span class="sk-wrap">
-                            <span class="sk-per"></span>
-                        </span>
-                    </div>
-                    <div class="sk">html
-                        <span class="sk-wrap">
-                            <span class="sk-per"></span>
-                        </span>
                     </div>
                 </div>
             </section>
@@ -94,7 +84,7 @@
                                 <span class="item-date">{{item.time}}</span>
                             </div>
                             <ul>
-                                <li v-for="des in item.describe">{{des}}</li>
+                                <li v-for="des in item.describe" v-if="des!=''">{{des}}</li>
                             </ul>
                         </div>
                     </div>
@@ -132,6 +122,7 @@
         data(){
             return{
                 msg:'hello vue',
+                ttc:80,
                 resStyleCode:""
             }
         },

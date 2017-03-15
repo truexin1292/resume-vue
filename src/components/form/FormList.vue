@@ -9,14 +9,18 @@
                         <div class="inp-short">意向:<input type="text" v-model="fromData.head.intention"></div>
                         <div class="inp-short">邮箱:<input type="text" v-model="fromData.head.email"></div>
                         <div class="inp-short">电话:<input type="text" v-model="fromData.head.tel"></div>
+                        <div class="inp-short">住址:<input type="text" v-model="fromData.head.address"></div>
                         <div class="inp-short">性别:<input type="text" v-model="fromData.head.sex"></div>
                         <div class="inp-short">年龄:<input type="text" v-model="fromData.head.age" placeholder="1770.8.23"></div>
                         <div class="inp-short">毕业学校:<input type="text" v-model="fromData.head.school"></div>
                         <div class="inp-short">学历:<input type="text" v-model="fromData.head.graduation"></div>
-                        <div class="inp-short">毕业时间:<input type="text" v-model="fromData.head.graduation" placeholder="2012-9 至 2016-7"></div>
-                        <div class="inp-short">荣获:<input type="text" v-model="fromData.head.honor" placeholder="多份殊荣逗号隔开"></div>
+                        <div class="inp-short">毕业时间:<input type="text" v-model="fromData.head.graduationTime" placeholder="2012-9 至 2016-7"></div>
+                        <div class="inp-short">专业:<input type="text" v-model="fromData.head.major" placeholder=""></div>
+                        <div class="inp-short">荣获:<input type="text" v-model="fromData.head.honor" placeholder="多份殊荣顿号隔开"></div>
+                        <div class="inp-short">技能特长:<input type="text" v-model="fromData.head.speciality" placeholder="顿号隔开"></div>
+                        <div class="inp-short">技能特长对应分数:<input type="text" v-model="fromData.head.specialityPer" placeholder="顿号隔开 如 80、90"></div>
                         <div class="inp-short">兴趣爱好:<input type="text" v-model="fromData.head.interest" placeholder="逗号隔开"></div>
-                        <div class="inp-short">技能特长:<input type="text" v-model="fromData.head.speciality" placeholder="最多三个特长逗号隔开"></div>
+
                     </div>
                     <div class="item-footer"><i></i>&nbsp;&nbsp;&nbsp;</div>
                 </div>
@@ -191,11 +195,13 @@
                         "age":"",
                         "sex":"",
                         "school":"",
+                        "graduationTime":"",
                         "graduation":"",
                         "major":"",
                         "honor":"",
                         "interest":"",
-                        "speciality":""
+                        "speciality":"",
+                        "specialityPer":""
                     },
                     "blogLink":{
                         "github":"",
@@ -209,7 +215,7 @@
                                 "skill":"",
                                 "time":"",
                                 "describe":[
-                                    "","",""
+                                    //"","",""
                                 ]
                             },
                             {
@@ -217,7 +223,7 @@
                                 "skill":"",
                                 "time":"",
                                 "describe":[
-                                    "","",""
+                                    //"","",""
                                 ]
                             },
                             {
@@ -337,11 +343,12 @@
     .from-content {
         position: fixed;
         top: 0;
-        left: 12.4%;
+        left: 2%;
         bottom: 0;
         margin: auto auto;
         width: 35%;
         max-width: 450px;
+        min-width: 400px;
         height: 85%;
         padding: 1rem;
         box-sizing: border-box;

@@ -7,12 +7,15 @@
     "address":"杭州余杭",
     "age":"1992.9.25",
     "sex":"男",
-    "school":"华侨大学厦门工学院(本科)",
-    "graduation":"2012-9-1 至 2016-7-1",
+    "school":"华侨大学厦门工学院",
+    "graduation":"本科",
+    "graduationTime":"2012-9-1 至 2016-7-1",
     "major":"电子信息工程及自动化",
     "honor":"2014年省电子科技大赛3等奖",
     "interest":"骑行、游泳、编程、音乐、攀岩",
-    "speciality":"js,css,html"
+    "speciality":"js、css、html",
+    "specialityPer":"40、50、60"
+
   },
   "blogLink":{
     "github":"https://github.com/ZengTianShengZ",

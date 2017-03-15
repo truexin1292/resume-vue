@@ -1,6 +1,6 @@
 <template>
     <div id="show-style">
-        <div class="style-content">
+        <div class="style-content" id="style_content">
             <pre class="style-code" v-html="styleMsg"></pre>
         </div>
     </div>
@@ -20,6 +20,10 @@
         methods:{
             writeStyleCode: function (code) {
                 this.styleMsg = code;
+//                document.body.scrollTop = document.body.scrollHeight;
+                document.getElementById('style_content').scrollTop = document.getElementById('style_content').scrollHeight
+
+
             }
         },
         watch(){

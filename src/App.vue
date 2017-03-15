@@ -227,10 +227,14 @@
             let _this = this;
 
             this.$nextTick(function () {
-                setInterval(function () {
+                let len = _this.code.length;
+                var setIn = setInterval(function () {
                     _this.$refs.comShowStyle.writeStyleCode(_this.code.substring(0,n));
                     _this.$refs.comShowResume.responseStyleCode(_this.code.substring(0,n));
                     n++;
+                    if(n >= len){
+                        clearInterval(setIn);
+                    }
                 },10);
              })
          },
