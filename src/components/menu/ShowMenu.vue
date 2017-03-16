@@ -1,7 +1,7 @@
 <template>
     <div id="show-menu">
         <div class="menu-cont">
-            <div class="logo"><i class="icon-github icon-5x"></i></div>
+            <div class="logo"><a target="_blank" href="https://github.com/ZengTianShengZ/resume-vue"><i class="icon-github icon-5x"></i></a></div>
             <div class="file" @click="fileClick">
                 <i class=" icon-file-alt icon-5x"></i>
                 <p class="file-des">生成简历</p>
@@ -92,6 +92,9 @@
         text-align: center;
         font-size: 1.2rem;
         margin-bottom: 2rem;
+    }
+    .logo a{
+        color: #42b983;
     }
 
     .file .file-des {

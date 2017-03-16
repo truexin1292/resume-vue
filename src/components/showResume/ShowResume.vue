@@ -168,28 +168,6 @@
          display: none;
      }
 
-     /* section-left
-     ------------------------------------*/
-     .section-left{
-         float: left;
-         width: 30%;
-         height: 100%;
-         text-align: center;
-         color: #313131;
-         line-height: 1.8;
-
-     }
-     /* section-right
-      ------------------------------------*/
-     .section-right{
-         float: left;
-         width: 69%;
-         height: 100%;
-         padding: 1rem;
-         box-sizing: border-box;
-         background: #ffffff;
-
-     }
 
 
 </style>
