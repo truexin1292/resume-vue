@@ -1,6 +1,6 @@
 <template>
     <div id="show-resume">
-        <div class="resume-content clearfloat">
+        <div id="resume_content" class="resume-content clearfloat" :style="{width:pfdSize.width+'px',height:pfdSize.height+'px'}">
             <section class="section-left">
                 <div class="head">
                     <h2>{{resumeData.head.name}}</h2>
@@ -123,7 +123,11 @@
             return{
                 msg:'hello vue',
                 ttc:80,
-                resStyleCode:""
+                resStyleCode:"",
+                pfdSize:{
+                    width:"",
+                    height:""
+                }
             }
         },
         props:{
@@ -150,9 +154,9 @@
         height: 100%;
         background: #ffffff;
         padding: 1rem 2rem;
+        overflow: auto;
         box-sizing: border-box;
     }
-
     .resume-content{
         width: 100%;
         height: 99%;

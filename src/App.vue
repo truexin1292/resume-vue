@@ -259,14 +259,32 @@
                         this.resumeData.formFlag = true;
                     }
                 }
-                if(msg.type == 'kaClick'){
-                    var htmlcode = document.getElementById('show-resume');
+                if(msg.type == 'choiceClick'){
+                    var resumeName = this.resumeData.head.intention+"-"+this.resumeData.head.name+"-"+this.resumeData.head.tel;
+                    var htmlcode = document.getElementById('resume_content');
+                    htmlcode.style.width = msg.size.width+'px';
+                    htmlcode.style.height = msg.size.height+'px';
+
                     html2canvas(htmlcode, {
                         onrendered: function(canvas) {
-                            document.body.appendChild(canvas);
+//                            document.body.appendChild(canvas);
+//                            var url = canvas.toDataURL();
+//                            //以下代码为下载此图片功能
+//                            var a = document.createElement('a');
+//                            a.href = url;
+//                            a.download = resumeName+'.png';
+//                            a.click();
+//                            window.URL.revokeObjectURL(url);
+
+                            var imgData = canvas.toDataURL('image/png');
+                            //Default export is a4 paper
+                            var doc = new jsPDF();
+                            doc.addImage(imgData, 'PNG', 10, 10);
+                            doc.save(resumeName+'.pdf');
+
                         },
-                    //width: 1487,
-                    //height: 2105
+//                    width: 2480 ,
+//                    height: 3508
                     });
                 }
              },
