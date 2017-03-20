@@ -20,4 +20,10 @@ npm run build
 npm run build --report
 ```
 
+[demo3.gif](./demo3.gif)
+
+#### 项目预览 ： https://zengtianshengz.github.io/blog/resume-vue/
+
+#### 关于 vue2.0 的项目实战可以看我之前写的一篇博文 ： https://segmentfault.com/a/1190000008209734
+
 ### 欢迎 star 和 issue
