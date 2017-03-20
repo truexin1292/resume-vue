@@ -20,7 +20,6 @@
                         <div class="inp-short">技能特长:<input type="text" v-model="fromData.head.speciality" placeholder="顿号隔开"></div>
                         <div class="inp-short">技能特长对应分数:<input type="text" v-model="fromData.head.specialityPer" placeholder="顿号隔开 如 80、90"></div>
                         <div class="inp-short">兴趣爱好:<input type="text" v-model="fromData.head.interest" placeholder="逗号隔开"></div>
-
                     </div>
                     <div class="item-footer"><i></i>&nbsp;&nbsp;&nbsp;</div>
                 </div>

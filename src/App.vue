@@ -11,7 +11,6 @@
 </template>
 
 <script>
-    import Hello from './components/Hello'
     import ShowMenu from './components/menu/ShowMenu.vue'
     import ShowStyle from './components/showStyle/ShowStyle.vue'
     import ShowResume from './components/showResume/ShowResume.vue'
@@ -254,63 +253,44 @@
 
             this.$nextTick(function () {
                 let len = _this.code.length;
+                // 每10ms 写入一次
                 var setIn = setInterval(function () {
+                    // 只显示作用
                     _this.$refs.comShowStyle.writeStyleCode(_this.code.substring(0, n));
+                    // 渲染作用
                     _this.$refs.comShowResume.responseStyleCode(_this.code.substring(0, n));
                     n++;
                     if (n >= len) {
+                        // 停止
                         clearInterval(setIn);
                     }
                 }, 10);
             })
         },
         methods: {
-            setStyleCode: function () {
-                this.$refs.comShowStyle.writeStyleCode('ss');
-            },
-            downloadPdf: function () {
-                var htmlcode = document.getElementById('show-resume');
-                html2canvas(htmlcode, {
-                    onrendered: function (canvas) {
-                        document.body.appendChild(canvas);
-                    },
-//                    width: 1487,
-//                    height: 2105
-                });
-            },
             listenShowMenu: function (msg) {
+                // 生成简历 事件
                 if (msg.type == 'fileClick') {
                     this.formListShow = msg.showFlag;
                     if (this.formListFlag) {
                         this.resumeData.formFlag = true;
                     }
                 }
+                // 下载简历 事件
                 if (msg.type == 'choiceClick') {
                     var resumeName = this.resumeData.head.intention + "-" + this.resumeData.head.name + "-" + this.resumeData.head.tel;
                     var htmlcode = document.getElementById('show-resume');
                     htmlcode.style.width = msg.size.width + 'px';
                     htmlcode.style.height = msg.size.height + 'px';
-
+                    // html 转 canvas 再转 pdf
                     html2canvas(htmlcode, {
                         onrendered: function (canvas) {
-//                            document.body.appendChild(canvas);
-//                            var url = canvas.toDataURL();
-//                            //以下代码为下载此图片功能
-//                            var a = document.createElement('a');
-//                            a.href = url;
-//                            a.download = resumeName+'.png';
-//                            a.click();
-//                            window.URL.revokeObjectURL(url);
-
                             var imgData = canvas.toDataURL('image/png');
                             //Default export is a4 paper
                             var doc = new jsPDF();
                             doc.addImage(imgData, 'PNG', 10, 10);
                             doc.save(resumeName + '.pdf');
-
-                        },
-//                    width: 2480 ,
-//                    height: 3508
+                        }
                     });
                 }
             },
@@ -325,7 +305,6 @@
             }
         },
         components: {
-            Hello,
             ShowMenu,
             ShowStyle,
             ShowResume,
@@ -335,7 +314,6 @@
 </script>
 
 <style>
-
     /* 内外边距通常让各个浏览器样式的表现位置不同 */
     body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5,
     h6, pre, code, form, fieldset, legend, input, textarea,

@@ -15,7 +15,6 @@
                     <p>96像素/英寸</p>
                     <p>A4 794×1123</p>
                     <input type="radio" @click="choiceClick({'width':794,'height':1123})">
-
                 </div>
                 <div class="dpi120 setdpi">
                     <p>120像素/英寸</p>
@@ -29,9 +28,7 @@
                 </div>
             </div>
             </transition>
-
         </div>
-
     </div>
 </template>
 

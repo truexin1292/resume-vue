@@ -20,17 +20,15 @@
         methods:{
             writeStyleCode: function (code) {
                 this.styleMsg = code;
-//                document.body.scrollTop = document.body.scrollHeight;
+                // 每写一行 code ，滚动条滚动到最下面
                 document.getElementById('style_content').scrollTop = document.getElementById('style_content').scrollHeight
-
-
             }
         },
         watch(){
 
         },
         components:{
-           
+
         }
     }
 </script>

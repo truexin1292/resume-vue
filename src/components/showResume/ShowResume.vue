@@ -141,13 +141,12 @@
             }
         },
         components:{
-           
+
         }
     }
 </script>
 
 <style>
-
     #show-resume{
         float: left;
         width: 67%;
@@ -167,7 +166,4 @@
     .resume-content::-webkit-scrollbar {
          display: none;
      }
-
-
-
 </style>
