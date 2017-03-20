@@ -20,7 +20,7 @@ npm run build
 npm run build --report
 ```
 
-[demo3.gif](./demo3.gif)
+![](./demo3.gif)
 
 #### 项目预览 ： https://zengtianshengz.github.io/blog/resume-vue/
 
