@@ -7,7 +7,6 @@
     text-align: center;
     color: #313131;
     line-height: 1.8;
-
 }
 /* section-right
  ------------------------------------*/
@@ -18,9 +17,7 @@
     padding: 1rem;
     box-sizing: border-box;
     background: #ffffff;
-
 }
-
 .resume-content{
     width: 100%;
     height: 99%;
@@ -40,8 +37,6 @@
     text-align: center;
     color: #313131;
     line-height: 1.8;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
-
 }
 /* section-right
  ------------------------------------*/
@@ -52,14 +47,10 @@
     padding: 1rem;
     box-sizing: border-box;
     background: #ffffff;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
-
 }
-
 .section-left i{
     color: rgb(151, 151, 151);
     font-size: 1.5rem;
-
 }
 .section-left h2{
     font-size: 2.5rem;
@@ -75,7 +66,6 @@
 .section-left .head{
     padding-top: 2rem;
     background: rgb(236,236,236);
-
 }
 .head ul{
     width: 100%;
@@ -109,7 +99,6 @@
 ------------------------------------*/
 .section-left .interest{
     margin-bottom: 0.8rem;
-
 }
 .section-left .inte-span{
     display: inline-block;
@@ -158,9 +147,6 @@
  ------------------------------------*/
 .section-right .blog-box{
     margin-bottom: 1rem;
-    /*background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5));*/
-    /*box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.2);*/
-
 }
 .section-right .blog{
     float: right;
@@ -176,17 +162,11 @@
     width: 100%;
     display:block;
     margin-bottom: 2px;
-    /*background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5) 50%, #ffffff);*/
 }
 .blog .link{
     line-height: 2rem;
     margin-bottom: 2px;
     padding-right: 0.5rem;
-    /*background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5));*/
-
-}
-.blog .link:nth-child(2n+1){
-    /*background: linear-gradient(to right, #ffffff, rgba(135, 135, 135, 0.5));*/
 }
 .blog .link i{
     margin-right: 1rem;
@@ -201,11 +181,7 @@
     box-sizing: border-box;
     font-size: 1.4rem;
     margin-bottom: 1rem;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
 }
-/*.experience:hover {*/
-/*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
-/*}*/
 .experience .title{
     width: 100%;
     height: 2rem;
@@ -234,9 +210,6 @@
 }
 .item-title .item-name{
     font-size: 1.6rem;
-}
-.item-title .item-skill{
-
 }
 .item-title .item-date{
     float: right;

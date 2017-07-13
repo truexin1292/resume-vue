@@ -72,7 +72,6 @@
         height: 100%;
         background: #ffffff;
     }
-
     .menu-cont {
         position: relative;
         width: 90%;
@@ -82,7 +81,6 @@
         box-sizing: border-box;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
-
     .logo, .file, .download-file {
         width: 100%;
         color: #42b983;
@@ -93,20 +91,16 @@
     .logo a{
         color: #42b983;
     }
-
     .file .file-des {
         font-size: 1.6rem;
     }
-
     .download-file {
         position: absolute;
         bottom: 2rem;
     }
-
     .logo, .file, .download-file:hover {
         cursor: pointer;
     }
-
     .download-choice {
         position: absolute;
         z-index: 9999;
@@ -116,7 +110,6 @@
         text-align: center;
         background: #ffffff;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
     }
     .setdpi{
         display: inline-block;

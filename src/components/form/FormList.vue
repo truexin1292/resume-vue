@@ -28,7 +28,6 @@
                     <div class="item-content">
                         <div class="inp-long">GitHub:<input type="text" placeholder="选填" v-model="fromData.blogLink.github"></div>
                         <div class="inp-long">技术博文:<input type="text" placeholder="选填" v-model="fromData.blogLink.blog"></div>
-                        <!--<div class="inp-long">个人博客:<input type="text" placeholder="选填"></div>-->
                     </div>
                     <div class="item-footer"><i></i>&nbsp;&nbsp;&nbsp;</div>
                 </div>
@@ -75,7 +74,6 @@
                     </div>
                     <div class="item-footer"><i class=" icon-plus-sign-alt icon-1x" @click="workIconClick" v-show="workExperienceFlag<2"></i>&nbsp;&nbsp;&nbsp;</div>
                 </div>
-
                 <div class="item">
                     <div class="item-head">
                         <span>项目经验</span>
@@ -359,7 +357,6 @@
         width: 100%;
         height: 100%;
         overflow: auto;
-
     }
     .from-content-item::-webkit-scrollbar {
         display: none;
@@ -370,7 +367,6 @@
         margin-bottom: 1.4rem;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
-
     .from-content .item-head {
         width: 100%;
         background: #42b983;
@@ -397,7 +393,6 @@
         margin: 1rem 1rem;
         line-height: 1.5;
     }
-
     .from-content .item-footer {
         width: 100%;
         background: #42b983;
@@ -455,7 +450,6 @@
         left: 5px;
         width: 100%;
         height: 4rem;
-        /*border-top: 1px solid #333333;*/
         background: #ebebeb;
         box-shadow: -4px 9px 8px 0 rgba(0, 0, 0, 0.2);
     }
@@ -468,7 +462,6 @@
         float: right;
         padding: 0.2rem;
         margin: 0.5rem 1rem 0 0;
-        /*text-align: center;*/
      }
     .from-box-footer .butt:hover{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

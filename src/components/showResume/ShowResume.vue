@@ -117,7 +117,6 @@
 </template>
 
 <script type="text/ecmascript-6">
-//    import resumeCss from './resume.css';
     export default{
         data(){
             return{
