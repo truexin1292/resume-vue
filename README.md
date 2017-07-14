@@ -89,8 +89,8 @@ ShowResume 组件 也同样拿到 code字符串，不同的是以 `"<style>"+cod
 就这样，一个组件负责加载 css字符串，同时把 css样式动态加载给另一个组件去渲染，这样就造成了边写css样式
 一边渲染页面的假象，哈哈，可以clone 代码下来研究一下就理解啦。
 
-#### 项目预览 ： https://zengtianshengz.github.io/blog/resume-vue/
+#### [项目预览](https://zengtianshengz.github.io/blog/resume-vue/)
 
-#### 关于 vue2.0 的项目实战可以看我之前写的一篇博文 ： https://segmentfault.com/a/1190000008209734
+#### 关于 vue2.0 的项目实战可以看我之前写的一篇博文 ：[点此跳转](https://segmentfault.com/a/1190000008209734)
 
 ### 欢迎 star 和 issue

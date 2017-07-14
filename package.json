@@ -2,7 +2,7 @@
   "name": "resume-vue",
   "version": "1.0.0",
   "description": "用 vue 打造个人简历",
-  "author": "曾思胜 <2292800085@qq.com>",
+  "author": "曾田生 <zengtianshengz@163.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
